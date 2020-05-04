@@ -10,6 +10,7 @@
   "author": "Sandeep Pal",
   "license": "ISC",
   "dependencies": {
+    "node-typescript": "^0.1.3",
     "typescript": "^3.8.3"
   }
 }
