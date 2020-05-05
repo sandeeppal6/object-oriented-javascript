@@ -24,10 +24,10 @@ class SavingAccount extends Account {
     }
     deposite(depositeAmount) {
         this.balance = this.balance + depositeAmount;
-        return `Account no: ${this.accountNumber} deposited with ${depositeAmount}, having total balance ${this.balance} in account.`;
+        return `Account no: ${this.accountNumber}, deposited with ${depositeAmount}, having total balance ${this.balance} in account.`;
     }
     getAccountDetail() {
-        return `Account no: ${this.accountNumber},  having balance amount ${this.balance} in account.`;
+        return `Account no: ${this.accountNumber}, having balance amount ${this.balance} in account.`;
     }
 }
 const myAccount = new SavingAccount(125, 5000);
